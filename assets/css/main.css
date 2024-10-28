@@ -2622,6 +2622,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			border-radius: 10%;
 		}
 
 			.image.fit:first-child {
@@ -4697,14 +4698,14 @@ input, select, textarea {
 	}
 	
 	.imagen {
-		margin: 50px; /* Espaciado entre las imágenes */
-		margin-bottom: 50px;
+		margin: 20px; /* Espaciado entre las imágenes */
+		margin-bottom: 20px;
 	}
 	
 	.image_circle {
-		height: 150px; /* Ajusta el tamaño de la imagen */
-		width: 150px; /* Asegúrate de que el ancho y alto sean iguales para un efecto circular */
+		height: 110px; /* Ajusta el tamaño de la imagen */
+		width: 110px; /* el ancho y alto sean iguales para un efecto circular */
 		border-radius: 10%; /* Hace que la imagen sea redonda */
 		object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
-		overflow: hidden; /* Asegúrate de ocultar cualquier parte que se salga del contenedor */
+		overflow: hidden; /* ocultar cualquier parte que se salga del contenedor */
 	}
