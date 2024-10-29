@@ -3598,7 +3598,7 @@ input, select, textarea {
 			}
 
 				#header .logo {
-					font-size: 1.75rem;
+					font-size: 16 px;
 					border-width: 3px !important;
 				}
 
@@ -4719,7 +4719,7 @@ input, select, textarea {
 	
 	@media (max-width: 768px) { /* Aplica este estilo en dispositivos móviles */
 		.responsive-image {
-			height: 90%; /* Ajusta el tamaño según tus preferencias */
-			width: 90%;
+			height: 96%; /* Ajusta el tamaño según tus preferencias */
+			width: 96%;
 		}
 	}
