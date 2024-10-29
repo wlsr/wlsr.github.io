@@ -4709,3 +4709,17 @@ input, select, textarea {
 		object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
 		overflow: hidden; /* ocultar cualquier parte que se salga del contenedor */
 	}
+
+	.responsive-image {
+		height: 60%;
+		width: 60%;
+		border-radius: 5%;
+		
+	}
+	
+	@media (max-width: 768px) { /* Aplica este estilo en dispositivos móviles */
+		.responsive-image {
+			height: 80%; /* Ajusta el tamaño según tus preferencias */
+			width: 80%;
+		}
+	}
