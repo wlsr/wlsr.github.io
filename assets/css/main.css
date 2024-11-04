@@ -4709,6 +4709,12 @@ input, select, textarea {
 		object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
 		overflow: hidden; /* ocultar cualquier parte que se salga del contenedor */
 	}
+	.image_small {
+		height: 60px; /* Ajusta el tamaño de la imagen */
+		width: 60px; /* el ancho y alto sean iguales para un efecto circular */
+		margin-right: 100px; /* Añade un margen alrededor de cada imagen */
+		margin-bottom: 20px;
+	}
 
 	.responsive-image {
 		height: 60%;
