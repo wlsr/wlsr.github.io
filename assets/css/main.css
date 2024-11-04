@@ -4710,10 +4710,10 @@ input, select, textarea {
 		overflow: hidden; /* ocultar cualquier parte que se salga del contenedor */
 	}
 	.image_small {
-		height: 60px; /* Ajusta el tamaño de la imagen */
-		width: 60px; /* el ancho y alto sean iguales para un efecto circular */
-		margin-right: 100px; /* Añade un margen alrededor de cada imagen */
-		margin-bottom: 20px;
+		height: 45px; /* Ajusta el tamaño de la imagen */
+		width: 45px; /* el ancho y alto sean iguales para un efecto circular */
+		margin-right: 80px; /* Añade un margen alrededor de cada imagen */
+		margin-bottom: 15px;
 	}
 
 	.responsive-image {
